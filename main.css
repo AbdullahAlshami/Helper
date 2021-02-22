@@ -1,0 +1,47 @@
+:root{
+    --main-color: grey;
+}
+body{
+    background: #e0e0de;
+}
+nav .brand-logo{
+    padding-left: 20px !important;
+}
+nav .nav-wrapper{
+    padding-right: 20px !important;
+}
+/* Sidenav*/
+.sidenav{
+    padding-top: 30px !important;
+}
+.add-post{
+    margin-top: 50px !important;   
+}
+.add-post input:focus{
+    border-bottom: 1px solid grey !important;
+}
+@media only screen and (min-width: 993px){
+    .container{
+        width: 90%;   
+       }
+
+}
+.article{
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+.article a {
+    color: red !important;
+
+}
+.article  button{
+    padding: 10px;
+    color: #ffff;
+    background: var(--main-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
